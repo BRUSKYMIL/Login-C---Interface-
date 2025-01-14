@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Castillo_Flotante.jpg" />
+    <None Remove="Images\Icono_Llave.png" />
+    <None Remove="Images\Icono_Usuario.png" />
+    <None Remove="Images\Logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ViewModel\" />
+    <Folder Include="Model\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Castillo_Flotante.jpg" />
+    <Resource Include="Images\Icono_Llave.png" />
+    <Resource Include="Images\Icono_Usuario.png" />
+    <Resource Include="Images\Logo.png" />
+  </ItemGroup>
+
+</Project>
